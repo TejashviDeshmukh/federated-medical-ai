@@ -1,0 +1,41 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.secret
+kaggle.json
+*.json.secret
+
+# Weights & Datasets
+*.pt
+*.pth
+*.ckpt
+*.dcm
+data/
+weights/*
+!weights/.gitkeep
+outputs/*
+!outputs/.gitkeep
+*.zip
+
+# Python & Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,15 @@
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+pyyaml
+pytest
+pydicom
+pylibjpeg
+flwr[simulation]>=1.5.0,<2.0.0
+fastapi
+uvicorn
+python-multipart
